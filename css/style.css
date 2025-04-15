@@ -191,7 +191,8 @@ li a:hover {
     border-radius: 10px;
   }
 
-  #menu-toggle:checked + .hamburger + .navbar ul {
+  #menu-toggle:checked ~ ul {
     display: flex;
   }
+  
 }
